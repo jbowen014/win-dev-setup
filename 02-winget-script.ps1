@@ -16,8 +16,8 @@ wsl --update
 winget install Docker.DockerDesktop
 
 # Frameworks
-winget install Microsoft.DotNet.SDK.6
 winget install Microsoft.DotNet.SDK.7
+winget install Microsoft.DotNet.SDK.8
 winget install OpenJS.NodeJS.LTS
 
 # Browsers
@@ -35,6 +35,7 @@ winget install icsharpcode.ILSpy
 
 # Azure Tooling
 winget install Microsoft.AzureCLI
+winget install Microsoft.Azd
 winget install Microsoft.Azure.AZCopy.10
 winget install Microsoft.Azure.StorageExplorer
 winget install Microsoft.Azure.FunctionsCoreTools
